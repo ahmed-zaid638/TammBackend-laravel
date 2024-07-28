@@ -21,7 +21,7 @@
                         <tr>
                             <td class="py-3 px-6 text-center">{{ $service->id }}</td>
                             <td class="py-3 px-6 text-center">
-                                <img src="{{ $service->icon }}" alt="{{ $service->title }}" class="w-12 h-12">
+                                <img src="{{ $service->icon }}" alt="icon" class="w-12 h-12">
                             </td>
                             <td class="py-3 px-6">{{ $service->title }}</td>
                             <td class="py-3 px-6">{{ $service->description }}</td>

@@ -78,7 +78,11 @@ module.exports = {
             },
           },
         },
+        gridTemplateColumns: {
+            'auto-fr': 'auto 1fr', // Custom grid template column
+          },
       },
+
     },
     plugins: [
       require("@tailwindcss/forms")({

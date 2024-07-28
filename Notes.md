@@ -1,4 +1,6 @@
 == to be done ===
-- rtl 
-- services fix ui
 
+-   rtl
+-   services fix ui
+-   list email , reply to it
+- 
