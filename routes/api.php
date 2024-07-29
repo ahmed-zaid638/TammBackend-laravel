@@ -5,7 +5,7 @@ use App\Http\Controllers\Api\FAQController;
 use App\Http\Controllers\Api\GoalController;
 use App\Http\Controllers\Api\ServiceController;
 use App\Http\Controllers\Api\ClientController;
-use App\Http\Controllers\Api\sliderController;
+use App\Http\Controllers\Api\SliderController;
 use App\Http\Controllers\Api\FormController;
 use App\Http\Controllers\Api\ArticleController;
 

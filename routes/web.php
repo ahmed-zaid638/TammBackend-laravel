@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\Home\HomeController;
 use Illuminate\Support\Facades\Route;
 
 Route::group(['prefix' => 'dashboard', 'as' => 'dashboard.', 'namespace' => 'App\\Http\\Controllers\\Dashboard'], function () {
@@ -80,3 +81,6 @@ Route::group(['prefix' => 'dashboard', 'as' => 'dashboard.', 'namespace' => 'App
         Route::post("/update", "SettingController@update")->name("update");
     });
 });
+
+// Home page
+Route::get("/", [HomeController::class, "index"]);
